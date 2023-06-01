@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    
+    color:#4444;
+    
+}
+
+
+.btn{
+    background: #f05462;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    color:#f05462;
+    background: white;
+    padding: 3px 8px;
+    border: 2px solid #f05462;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+}
+
+th, td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+
+.case{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff; 
+    word-break: break-all;
+    text-align: center;
+    background: #0298cf;
+}
+
+.card{
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;   
+    word-break: break-all;
+    text-align: center;
+    padding: 10px 10px ;
+    background: rgb(255, 0, 0);
+}
+
+.side-menu{
+    position: fixed;
+    background: #f05462;
+    width: 22vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li{
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.side-menu li:hover{
+    background: white;
+    color:#f05462;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 78vw;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 78vw;
+    height: 10vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.973);
+}
+
+
+.container .content{
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+} 
+
+.container .content .content-2{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container .content .content-2 .recent-payments{
+    min-height: 86vh;
+    flex: 5;
+    margin: 0 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}

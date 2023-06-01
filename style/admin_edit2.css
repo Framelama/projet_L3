@@ -1,0 +1,104 @@
+body{
+    background: linear-gradient(to bottom, #20244f, #11133b);
+      
+
+  }
+  form {
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  }
+
+  form label {
+  font-weight: bold;
+  }
+
+  form input[type="text"],
+  form input[type="number"],
+  form select,
+  form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  
+  }
+
+  form textarea {
+  height: 100px;
+  }
+
+  form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  form input[type="submit"]:hover {
+  background-color: #45a049;
+  }
+
+  .date-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.input-pic{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+
+}
+#photo{
+  border: none;
+}
+
+#contact{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+.btn{
+width: 80px;
+height: 40px;
+border-radius: 80px;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 1em;
+font-weight: 300;
+background: #b90826;
+color: #fff;
+}
+
+.case{
+width: 100px;
+height: 40px;
+border-radius: 20px;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 1em;
+font-weight: 300;
+background: #0298cf;
+color: #fff;
+}
