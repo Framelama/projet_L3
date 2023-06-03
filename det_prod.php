@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-    /* Ajoutez vos styles personnalisés ici */
+    
     body{
         background: linear-gradient(to bottom, #20244f, #11133b);
         color: #fff;

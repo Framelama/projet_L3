@@ -22,7 +22,7 @@
   font-size: 14px;
 }
 
-/* Ajoutez d'autres styles selon vos besoins */
+
 
     </style>
 </head>

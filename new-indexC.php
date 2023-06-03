@@ -75,10 +75,10 @@
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-4">
-      <form class="form-inline" action="recherche2.php" method="GET"> <!-- Remplacez "rechercher.php" par le nom de votre fichier de recherche -->
+      <form class="form-inline" action="recherche2.php" method="GET"> 
         <div class="search-bar">
         <i class="fa fa-search search-icon"></i>
-          <input type="text" class="search-input" name="q" placeholder="Rechercher un produit"> <!-- "q" est le nom du paramètre qui sera envoyé dans la requête GET avec la valeur de la recherche -->
+          <input type="text" class="search-input" name="q" placeholder="Rechercher un produit"> 
           <button type="submit" class="search-button">Rechercher</button>
         </div>
         
