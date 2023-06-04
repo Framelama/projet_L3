@@ -123,7 +123,7 @@ $resultmuscu = $conn->query($sqlmuscu);
         <img src="img<?php echo $row['photo']; ?>" class="img-responsive" style="width:100%" alt="Image produit" >
         <p><?php echo $row['Libelle']; ?></p>
         <p><?php echo $row['prix']; ?> Dz</p>
-        <a href="det_prod.php?id=<?php echo $row['ID_P']  ;  ?>" class="btn-success" style="text-decoration:none; padding: 10px;  ">Voir details</a>
+        <a href="det_prodU.php?id=<?php echo $row['ID_P']  ;  ?>" class="btn-success" style="text-decoration:none; padding: 10px;  ">Voir details</a>
       </div>
     <?php } ?> 
   </div>
@@ -162,7 +162,7 @@ $resultcardio = $conn->query($sqlcardio);
         <img src="img<?php echo $row['photo']; ?>" class="img-responsive" style="width:100%" alt="Image produit" >
         <p><?php echo $row['Libelle']; ?></p>
         <p><?php echo $row['prix']; ?> Dz</p>
-        <a href="det_prod.php?id=<?php echo $row['ID_P']  ;  ?>" class="btn-success" style="text-decoration:none; padding: 10px;  ">Voir details</a>
+        <a href="det_prodU.php?id=<?php echo $row['ID_P']  ;  ?>" class="btn-success" style="text-decoration:none; padding: 10px;  ">Voir details</a>
       </div>
       
     <?php } ?> 

@@ -1,9 +1,12 @@
+
 <?php
 session_start();
 $host = 'localhost';
 $dbname= 'projet l3';
 $username= 'root';
 $password = '';
+
+
 
 
 
@@ -33,10 +36,15 @@ if($donnees = $reponse -> fetch()){
   $_SESSION['userID'] = $userID;
   header('location:Fournisseur.php');
 
+      }
+    } else{
+     
+      header('location:connecter.php');
+      
+      exit();
+    }
   }
-}
-}
-}
+} 
 
 
 $reponse->closeCursor();

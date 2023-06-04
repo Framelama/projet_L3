@@ -31,7 +31,12 @@ if($donnees = $reponse -> fetch()){
    header('location:new-indexC.php');
 
 }
-}
+} else{
+     
+  header('location:connecterC.php');
+  
+  exit();
+} 
 }
 }
 

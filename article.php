@@ -86,6 +86,11 @@
         box-sizing: border-box;
         
     }
+    .navbar {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
 
 
 

@@ -75,7 +75,7 @@
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-4">
-      <form class="form-inline" action="recherche2.php" method="GET"> 
+      <form class="form-inline" action="rechercheC.php" method="GET"> 
         <div class="search-bar">
         <i class="fa fa-search search-icon"></i>
           <input type="text" class="search-input" name="q" placeholder="Rechercher un produit"> 

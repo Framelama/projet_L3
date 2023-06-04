@@ -40,6 +40,9 @@
     background: #0298cf;
     color: white;
     }
+    .navbar{
+        text-transform: uppercase;
+    }
       
      
         
@@ -61,8 +64,8 @@
                 <li><a href="toutPU.php">TOUT LES PRODUITS</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="user.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="user1.php"><span class="glyphicon glyphicon-user"></span> Inscription</a></li>
+                <li><a href="user.php"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
             </ul>
             </div>
         </nav>  

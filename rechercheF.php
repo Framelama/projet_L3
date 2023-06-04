@@ -14,6 +14,9 @@
     
    
     <style> 
+    .navbar{
+        text-transform: uppercase;
+    }
         form{
         text-align: center; 
         padding: 2px 5px;
@@ -51,17 +54,14 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="new-index.php">EcoSPort</a>
+                <a class="navbar-brand" href="Fournisseur.php">EcoSPort</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="new-index.php">Home</a></li>
-                <li><a href="ajouter2.php">Ajouter</a></li>
-                <li><a href="toutPU.php">TOUT LES PRODUITS</a></li>
+                <li class="active"><a href="Fournisseur.php">Consulter</a></li>
+                <li><a href="article.php">Ajouter</a></li>
+                <li><a href="toutPF.php">TOUT LES PRODUITS</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="user1.php"><span class="glyphicon glyphicon-user"></span> Inscription</a></li>
-                <li><a href="user.php"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
-            </ul>
+            
             </div>
         </nav>  
 
@@ -74,7 +74,7 @@
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-4">
-      <form class="form-inline" action="recherche2.php" method="GET"> 
+      <form class="form-inline" action="rechercheF.php" method="GET"> 
         <div class="search-bar">
         <i class="fa fa-search search-icon"></i>
           <input type="text" class="search-input" name="q" placeholder="Rechercher un produit"> <!-- "q" est le nom du paramètre qui sera envoyé dans la requête GET avec la valeur de la recherche -->
@@ -115,7 +115,7 @@ $resultat = mysqli_query($conn, $query);
         <img src="img<?php echo $produit['photo']; ?>" class="img-responsive" style="width:200px" >
         <h5>Libelle: <?php echo $produit['Libelle']; ?></h5>
         <p>Prix: <?php echo $produit['prix']; ?> Dz</p>
-        <a href="det_prodU.php?id=<?php echo $produit['ID_P']  ;  ?>" class="btn-success" style="text-decoration:none; padding: 10px;  ">Voir details</a>
+        <a href="det_prodF.php?id=<?php echo $produit['ID_P']  ;  ?>" class="btn-success" style="text-decoration:none; padding: 10px;  ">Voir details</a>
         </div>
       </div>
     <?php } ?>

@@ -25,6 +25,11 @@
        border: 1px solid black; 
         padding: 5px 10px;  
     }
+    .navbar {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
 
     
     button{  
@@ -52,6 +57,43 @@
     color: white;
     padding: 10px 35px ;
     }
+     /* le css de form-group la barre de recherche */
+  .search-bar {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 15px;
+}
+.search-input {
+flex-grow: 1;
+border: none;
+background-color: transparent;
+outline: none;
+font-size: 14px;
+color: #333;
+}
+.search-button {
+background-color: #337ab7;
+color: #fff;
+border: none;
+border-radius: 20px;
+padding: 8px 15px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #286090;
+}
+
+.search-icon {
+  margin-right: 5px;
+  color: #888;
+}
 
 
     </style>
@@ -72,6 +114,22 @@
            
           
         </nav>
+
+
+        <div class="container text-center">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-4">
+      <form class="form-inline" action="rechercheF.php" method="GET"> 
+        <div class="search-bar">
+        <i class="fa fa-search search-icon"></i>
+          <input type="text" class="search-input" name="q" placeholder="Rechercher un produit"> 
+          <button type="submit" class="search-button">Rechercher</button>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
         <?php
 session_start();
 

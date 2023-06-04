@@ -25,13 +25,14 @@
                     <input type="password" name="mdp" required >
                     <label for=""> Mot de passe </label>
                 </div>
-                    
+                
                 <button  name="ok" > Connecter </button> <br>
                 <div class="register">
                     <p>Vous n'avez pas de compte <a href="inscriptionF.php"> inscription </a></p>
 
                 </div>
             </form>
+            
         </div>
     </div>
   </section>
